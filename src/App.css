@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #747992;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background-color: azure;
+    width: 60%;
+    height: 70vh;
+    max-width: 900px;
+    margin: 5rem auto;
+    text-align: left;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: fit-content;
+    padding: 2rem;
+    background-color:#efefef;
+    color: #747992;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+}
+
+.auth-form-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.auth-form-title {
+    border-bottom: 2px solid #747992;
+}
+
+.auth-form-input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #747992;
+    border-radius: 0.5rem;
+}
+
+.auth-form-footer {
+    border-top: 2px solid #747992;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #065d94;
+    color: white;
+}
+
+.btn-primary-outlined {
+    background-color: transparent;
+    color: #065d94;
+    border: 1px solid #065d94;
+}
+
+.btn-auth-rrss {
+    background-color: transparent;
+    padding: 0;
+    font-size: 3rem;
+}
